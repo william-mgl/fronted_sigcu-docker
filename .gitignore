@@ -1,0 +1,63 @@
+# =====================
+# VARIABLES DE ENTORNO
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# NODE / JAVASCRIPT
+# =====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =====================
+# BUILD / DIST
+# =====================
+dist/
+build/
+.out/
+.next/
+coverage/
+
+# =====================
+# FRAMEWORKS
+# =====================
+# Vite
+.vite/
+
+# React
+*.log
+
+# =====================
+# SISTEMA OPERATIVO
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# EDITORES / IDE
+# =====================
+.vscode/
+.idea/
+*.swp
+
+# =====================
+# DATABASE / LOCAL
+# =====================
+*.sqlite
+*.db
+
+# =====================
+# DOCKER (si usas)
+# =====================
+docker-compose.override.yml
+
+# =====================
+# OTROS
+# =====================
+.cache/
+temp/
